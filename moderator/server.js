@@ -218,7 +218,7 @@ const server = http.createServer((req, res) => {
     }
 });
 
-const PORT = 7000;
+const PORT = parseInt(process.env.PORT, 10) || 7000;
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

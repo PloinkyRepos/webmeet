@@ -1,4 +1,5 @@
 {
+  "lite-sandbox": true,
   "container": "node:18-alpine",
   "install": "echo 'No installation needed'",
   "update": "",
